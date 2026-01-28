@@ -19,10 +19,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuration
-INPUT_FOLDER = ""
-OUTPUT_FOLDER_LOCAL = ""
+INPUT_FOLDER = r"C:\Users\lananoor\OneDrive - Microsoft\ADIC\TranscriptionCode\outputRawTranscription"
+OUTPUT_FOLDER_LOCAL = r"C:\Users\lananoor\OneDrive - Microsoft\ADIC\TranscriptionCode\outputPDF"
 STORAGE_CONNECTION_STRING = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
-OUTPUT_CONTAINER = "transcription-pdf"
+OUTPUT_CONTAINER = OS.getenv("OUTPUT_CONTAINER")
 
 # Ensure output folder exists
 os.makedirs(OUTPUT_FOLDER_LOCAL, exist_ok=True)

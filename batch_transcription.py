@@ -20,7 +20,7 @@ SPEECH_REGION = os.getenv("AZURE_SPEECH_REGION", "swedencentral")
 SPEECH_ENDPOINT = f"https://{SPEECH_REGION}.api.cognitive.microsoft.com/speechtotext/v3.2/transcriptions"
 
 STORAGE_CONNECTION_STRING = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
-INPUT_CONTAINER = "adic-input-wavfiles"
+INPUT_CONTAINER = os.getenv("INPUT_CONTAINER")
 OUTPUT_FOLDER = r"C:\Users\lananoor\OneDrive - Microsoft\ADIC\TranscriptionCode\outputRawTranscription"
 
 # Ensure output folder exists
