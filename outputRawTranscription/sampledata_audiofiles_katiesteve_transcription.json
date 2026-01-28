@@ -1,0 +1,886 @@
+{
+  "source": "https://etisalatingestionstorage.blob.core.windows.net/adic-input-wavfiles/sampledata_audiofiles_katiesteve.wav?sv=2024-11-04&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2026-03-25T16:37:23Z&st=2026-01-28T08:22:23Z&spr=https&sig=iC%2FIk4x31on7QHOvgVBlnPTBXwmexIcKrOkSy6PD%2Fao%3D",
+  "timestamp": "2026-01-28T09:40:22Z",
+  "durationInTicks": 294900000,
+  "durationMilliseconds": 29490,
+  "duration": "PT29.49S",
+  "combinedRecognizedPhrases": [
+    {
+      "channel": 0,
+      "lexical": "good morning steve good morning katie have you tried the latest real time diarization in microsoft speech service which can tell you who said what in real time not yet i've been using the batch transcription with diarization functionality but it produces diarization result until whole audio get processed is the new feature can diarize in real time absolutely that's exciting let me try it right now",
+      "itn": "good morning steve good morning katie have you tried the latest real time diarization in microsoft speech service which can tell you who said what in real time not yet i've been using the batch transcription with diarization functionality but it produces diarization result until whole audio get processed is the new feature can diarize in real time absolutely that's exciting let me try it right now",
+      "maskedITN": "Good morning, Steve. Good morning, Katie. Have you tried the latest real time diarization in Microsoft Speech Service which can tell you who said what in real time? Not yet I've been using the batch transcription with diarization functionality but it produces diarization result until whole audio get processed Is the new feature can diarize in real time Absolutely. That's exciting Let me try it right now",
+      "display": "Good morning, Steve. Good morning, Katie. Have you tried the latest real time diarization in Microsoft Speech Service which can tell you who said what in real time? Not yet. I've been using the batch transcription with diarization functionality, but it produces diarization result until whole audio get processed. Is the new feature can diarize in real time? Absolutely. That's exciting. Let me try it right now."
+    }
+  ],
+  "recognizedPhrases": [
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 1,
+      "offset": "PT0.08S",
+      "duration": "PT0.96S",
+      "offsetInTicks": 800000.0,
+      "durationInTicks": 9600000.0,
+      "durationMilliseconds": 960,
+      "offsetMilliseconds": 80,
+      "nBest": [
+        {
+          "confidence": 0.95605,
+          "lexical": "good morning steve",
+          "itn": "good morning steve",
+          "maskedITN": "Good morning, Steve.",
+          "display": "Good morning, Steve.",
+          "words": [
+            {
+              "word": "good",
+              "offset": "PT0.08S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 800000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 80,
+              "confidence": 0.9369577
+            },
+            {
+              "word": "morning",
+              "offset": "PT0.28S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 2800000.0,
+              "durationInTicks": 3200000.0,
+              "durationMilliseconds": 320,
+              "offsetMilliseconds": 280,
+              "confidence": 0.95950216
+            },
+            {
+              "word": "steve",
+              "offset": "PT0.6S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 6000000.0,
+              "durationInTicks": 4400000.0,
+              "durationMilliseconds": 440,
+              "offsetMilliseconds": 600,
+              "confidence": 0.97169006
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT1.92S",
+      "duration": "PT1.04S",
+      "offsetInTicks": 19200000.0,
+      "durationInTicks": 10400000.0,
+      "durationMilliseconds": 1040,
+      "offsetMilliseconds": 1920,
+      "nBest": [
+        {
+          "confidence": 0.85169816,
+          "lexical": "good morning katie",
+          "itn": "good morning katie",
+          "maskedITN": "Good morning, Katie.",
+          "display": "Good morning, Katie.",
+          "words": [
+            {
+              "word": "good",
+              "offset": "PT1.92S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 19200000.0,
+              "durationInTicks": 2400000.0,
+              "durationMilliseconds": 240,
+              "offsetMilliseconds": 1920,
+              "confidence": 0.8531995
+            },
+            {
+              "word": "morning",
+              "offset": "PT2.16S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 21600000.0,
+              "durationInTicks": 3200000.0,
+              "durationMilliseconds": 320,
+              "offsetMilliseconds": 2160,
+              "confidence": 0.9642528
+            },
+            {
+              "word": "katie",
+              "offset": "PT2.48S",
+              "duration": "PT0.48S",
+              "offsetInTicks": 24800000.0,
+              "durationInTicks": 4800000.0,
+              "durationMilliseconds": 480,
+              "offsetMilliseconds": 2480,
+              "confidence": 0.7376422
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 1,
+      "offset": "PT3.84S",
+      "duration": "PT7.6S",
+      "offsetInTicks": 38400000.0,
+      "durationInTicks": 76000000.0,
+      "durationMilliseconds": 7600,
+      "offsetMilliseconds": 3840,
+      "nBest": [
+        {
+          "confidence": 0.9621634,
+          "lexical": "have you tried the latest real time diarization in microsoft speech service which can tell you who said what in real time",
+          "itn": "have you tried the latest real time diarization in microsoft speech service which can tell you who said what in real time",
+          "maskedITN": "Have you tried the latest real time diarization in Microsoft Speech Service which can tell you who said what in real time?",
+          "display": "Have you tried the latest real time diarization in Microsoft Speech Service which can tell you who said what in real time?",
+          "words": [
+            {
+              "word": "have",
+              "offset": "PT3.84S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 38400000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 3840,
+              "confidence": 0.98114556
+            },
+            {
+              "word": "you",
+              "offset": "PT4.04S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 40400000.0,
+              "durationInTicks": 1200000.0,
+              "durationMilliseconds": 120,
+              "offsetMilliseconds": 4040,
+              "confidence": 0.9794413
+            },
+            {
+              "word": "tried",
+              "offset": "PT4.16S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 41600000.0,
+              "durationInTicks": 3200000.0,
+              "durationMilliseconds": 320,
+              "offsetMilliseconds": 4160,
+              "confidence": 0.9750299
+            },
+            {
+              "word": "the",
+              "offset": "PT4.48S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 44800000.0,
+              "durationInTicks": 800000.0,
+              "durationMilliseconds": 80,
+              "offsetMilliseconds": 4480,
+              "confidence": 0.9814124
+            },
+            {
+              "word": "latest",
+              "offset": "PT4.56S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 45600000.0,
+              "durationInTicks": 4400000.0,
+              "durationMilliseconds": 440,
+              "offsetMilliseconds": 4560,
+              "confidence": 0.96351796
+            },
+            {
+              "word": "real",
+              "offset": "PT5S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 50000000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 5000,
+              "confidence": 0.9644358
+            },
+            {
+              "word": "time",
+              "offset": "PT5.2S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 52000000.0,
+              "durationInTicks": 2800000.0,
+              "durationMilliseconds": 280,
+              "offsetMilliseconds": 5200,
+              "confidence": 0.91857684
+            },
+            {
+              "word": "diarization",
+              "offset": "PT5.48S",
+              "duration": "PT0.8S",
+              "offsetInTicks": 54800000.0,
+              "durationInTicks": 8000000.0,
+              "durationMilliseconds": 800,
+              "offsetMilliseconds": 5480,
+              "confidence": 0.849589
+            },
+            {
+              "word": "in",
+              "offset": "PT6.28S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 62800000.0,
+              "durationInTicks": 1200000.0,
+              "durationMilliseconds": 120,
+              "offsetMilliseconds": 6280,
+              "confidence": 0.9715049
+            },
+            {
+              "word": "microsoft",
+              "offset": "PT6.4S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 64000000.0,
+              "durationInTicks": 6000000.0,
+              "durationMilliseconds": 600,
+              "offsetMilliseconds": 6400,
+              "confidence": 0.95205283
+            },
+            {
+              "word": "speech",
+              "offset": "PT7S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 70000000.0,
+              "durationInTicks": 4000000.0,
+              "durationMilliseconds": 400,
+              "offsetMilliseconds": 7000,
+              "confidence": 0.91869575
+            },
+            {
+              "word": "service",
+              "offset": "PT7.4S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 74000000.0,
+              "durationInTicks": 5600000.0,
+              "durationMilliseconds": 560,
+              "offsetMilliseconds": 7400,
+              "confidence": 0.9768679
+            },
+            {
+              "word": "which",
+              "offset": "PT8.12S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 81200000.0,
+              "durationInTicks": 2800000.0,
+              "durationMilliseconds": 280,
+              "offsetMilliseconds": 8120,
+              "confidence": 0.97638035
+            },
+            {
+              "word": "can",
+              "offset": "PT8.4S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 84000000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 8400,
+              "confidence": 0.98161066
+            },
+            {
+              "word": "tell",
+              "offset": "PT8.6S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 86000000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 8600,
+              "confidence": 0.9695322
+            },
+            {
+              "word": "you",
+              "offset": "PT8.8S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 88000000.0,
+              "durationInTicks": 1600000.0,
+              "durationMilliseconds": 160,
+              "offsetMilliseconds": 8800,
+              "confidence": 0.9768673
+            },
+            {
+              "word": "who",
+              "offset": "PT8.96S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 89600000.0,
+              "durationInTicks": 4000000.0,
+              "durationMilliseconds": 400,
+              "offsetMilliseconds": 8960,
+              "confidence": 0.96518123
+            },
+            {
+              "word": "said",
+              "offset": "PT9.4S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 94000000.0,
+              "durationInTicks": 5600000.0,
+              "durationMilliseconds": 560,
+              "offsetMilliseconds": 9400,
+              "confidence": 0.97672176
+            },
+            {
+              "word": "what",
+              "offset": "PT10S",
+              "duration": "PT0.52S",
+              "offsetInTicks": 100000000.0,
+              "durationInTicks": 5200000.0,
+              "durationMilliseconds": 520,
+              "offsetMilliseconds": 10000,
+              "confidence": 0.9777591
+            },
+            {
+              "word": "in",
+              "offset": "PT10.64S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 106400000.0,
+              "durationInTicks": 1600000.0,
+              "durationMilliseconds": 160,
+              "offsetMilliseconds": 10640,
+              "confidence": 0.97898865
+            },
+            {
+              "word": "real",
+              "offset": "PT10.8S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 108000000.0,
+              "durationInTicks": 2400000.0,
+              "durationMilliseconds": 240,
+              "offsetMilliseconds": 10800,
+              "confidence": 0.9727831
+            },
+            {
+              "word": "time",
+              "offset": "PT11.04S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 110400000.0,
+              "durationInTicks": 4000000.0,
+              "durationMilliseconds": 400,
+              "offsetMilliseconds": 11040,
+              "confidence": 0.9595002
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT12.32S",
+      "duration": "PT0.64S",
+      "offsetInTicks": 123200000.0,
+      "durationInTicks": 6400000.0,
+      "durationMilliseconds": 640,
+      "offsetMilliseconds": 12320,
+      "nBest": [
+        {
+          "confidence": 0.9715204,
+          "lexical": "not yet",
+          "itn": "not yet",
+          "maskedITN": "Not yet",
+          "display": "Not yet.",
+          "words": [
+            {
+              "word": "not",
+              "offset": "PT12.32S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 123200000.0,
+              "durationInTicks": 3200000.0,
+              "durationMilliseconds": 320,
+              "offsetMilliseconds": 12320,
+              "confidence": 0.9740011
+            },
+            {
+              "word": "yet",
+              "offset": "PT12.64S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 126400000.0,
+              "durationInTicks": 3200000.0,
+              "durationMilliseconds": 320,
+              "offsetMilliseconds": 12640,
+              "confidence": 0.96903974
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT13S",
+      "duration": "PT7.4S",
+      "offsetInTicks": 130000000.0,
+      "durationInTicks": 74000000.0,
+      "durationMilliseconds": 7400,
+      "offsetMilliseconds": 13000,
+      "nBest": [
+        {
+          "confidence": 0.9035071,
+          "lexical": "i've been using the batch transcription with diarization functionality but it produces diarization result until whole audio get processed",
+          "itn": "i've been using the batch transcription with diarization functionality but it produces diarization result until whole audio get processed",
+          "maskedITN": "I've been using the batch transcription with diarization functionality but it produces diarization result until whole audio get processed",
+          "display": "I've been using the batch transcription with diarization functionality, but it produces diarization result until whole audio get processed.",
+          "words": [
+            {
+              "word": "i've",
+              "offset": "PT13S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 130000000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 13000,
+              "confidence": 0.96658474
+            },
+            {
+              "word": "been",
+              "offset": "PT13.2S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 132000000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 13200,
+              "confidence": 0.98220634
+            },
+            {
+              "word": "using",
+              "offset": "PT13.4S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 134000000.0,
+              "durationInTicks": 2800000.0,
+              "durationMilliseconds": 280,
+              "offsetMilliseconds": 13400,
+              "confidence": 0.97395444
+            },
+            {
+              "word": "the",
+              "offset": "PT13.68S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 136800000.0,
+              "durationInTicks": 800000.0,
+              "durationMilliseconds": 80,
+              "offsetMilliseconds": 13680,
+              "confidence": 0.98120546
+            },
+            {
+              "word": "batch",
+              "offset": "PT13.76S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 137600000.0,
+              "durationInTicks": 3600000.0,
+              "durationMilliseconds": 360,
+              "offsetMilliseconds": 13760,
+              "confidence": 0.95584637
+            },
+            {
+              "word": "transcription",
+              "offset": "PT14.12S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 141200000.0,
+              "durationInTicks": 6000000.0,
+              "durationMilliseconds": 600,
+              "offsetMilliseconds": 14120,
+              "confidence": 0.8754806
+            },
+            {
+              "word": "with",
+              "offset": "PT14.72S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 147200000.0,
+              "durationInTicks": 1600000.0,
+              "durationMilliseconds": 160,
+              "offsetMilliseconds": 14720,
+              "confidence": 0.98063046
+            },
+            {
+              "word": "diarization",
+              "offset": "PT14.88S",
+              "duration": "PT0.8S",
+              "offsetInTicks": 148800000.0,
+              "durationInTicks": 8000000.0,
+              "durationMilliseconds": 800,
+              "offsetMilliseconds": 14880,
+              "confidence": 0.8227432
+            },
+            {
+              "word": "functionality",
+              "offset": "PT15.68S",
+              "duration": "PT0.8S",
+              "offsetInTicks": 156800000.0,
+              "durationInTicks": 8000000.0,
+              "durationMilliseconds": 800,
+              "offsetMilliseconds": 15680,
+              "confidence": 0.90679437
+            },
+            {
+              "word": "but",
+              "offset": "PT16.68S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 166800000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 16680,
+              "confidence": 0.9795592
+            },
+            {
+              "word": "it",
+              "offset": "PT16.88S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 168800000.0,
+              "durationInTicks": 800000.0,
+              "durationMilliseconds": 80,
+              "offsetMilliseconds": 16880,
+              "confidence": 0.95181483
+            },
+            {
+              "word": "produces",
+              "offset": "PT16.96S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 169600000.0,
+              "durationInTicks": 4400000.0,
+              "durationMilliseconds": 440,
+              "offsetMilliseconds": 16960,
+              "confidence": 0.9690214
+            },
+            {
+              "word": "diarization",
+              "offset": "PT17.4S",
+              "duration": "PT0.8S",
+              "offsetInTicks": 174000000.0,
+              "durationInTicks": 8000000.0,
+              "durationMilliseconds": 800,
+              "offsetMilliseconds": 17400,
+              "confidence": 0.8009608
+            },
+            {
+              "word": "result",
+              "offset": "PT18.2S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 182000000.0,
+              "durationInTicks": 4000000.0,
+              "durationMilliseconds": 400,
+              "offsetMilliseconds": 18200,
+              "confidence": 0.61153126
+            },
+            {
+              "word": "until",
+              "offset": "PT18.6S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 186000000.0,
+              "durationInTicks": 3200000.0,
+              "durationMilliseconds": 320,
+              "offsetMilliseconds": 18600,
+              "confidence": 0.97382945
+            },
+            {
+              "word": "whole",
+              "offset": "PT18.92S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 189200000.0,
+              "durationInTicks": 2400000.0,
+              "durationMilliseconds": 240,
+              "offsetMilliseconds": 18920,
+              "confidence": 0.8833411
+            },
+            {
+              "word": "audio",
+              "offset": "PT19.16S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 191600000.0,
+              "durationInTicks": 3600000.0,
+              "durationMilliseconds": 360,
+              "offsetMilliseconds": 19160,
+              "confidence": 0.96980494
+            },
+            {
+              "word": "get",
+              "offset": "PT19.52S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 195200000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 19520,
+              "confidence": 0.62294775
+            },
+            {
+              "word": "processed",
+              "offset": "PT19.72S",
+              "duration": "PT0.68S",
+              "offsetInTicks": 197200000.0,
+              "durationInTicks": 6800000.0,
+              "durationMilliseconds": 680,
+              "offsetMilliseconds": 19720,
+              "confidence": 0.9583787
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT21.28S",
+      "duration": "PT2.52S",
+      "offsetInTicks": 212800000.0,
+      "durationInTicks": 25200000.0,
+      "durationMilliseconds": 2520,
+      "offsetMilliseconds": 21280,
+      "nBest": [
+        {
+          "confidence": 0.92691207,
+          "lexical": "is the new feature can diarize in real time",
+          "itn": "is the new feature can diarize in real time",
+          "maskedITN": "Is the new feature can diarize in real time",
+          "display": "Is the new feature can diarize in real time?",
+          "words": [
+            {
+              "word": "is",
+              "offset": "PT21.28S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 212800000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 21280,
+              "confidence": 0.95017093
+            },
+            {
+              "word": "the",
+              "offset": "PT21.48S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 214800000.0,
+              "durationInTicks": 800000.0,
+              "durationMilliseconds": 80,
+              "offsetMilliseconds": 21480,
+              "confidence": 0.97969854
+            },
+            {
+              "word": "new",
+              "offset": "PT21.56S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 215600000.0,
+              "durationInTicks": 2400000.0,
+              "durationMilliseconds": 240,
+              "offsetMilliseconds": 21560,
+              "confidence": 0.97973186
+            },
+            {
+              "word": "feature",
+              "offset": "PT21.8S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 218000000.0,
+              "durationInTicks": 4400000.0,
+              "durationMilliseconds": 440,
+              "offsetMilliseconds": 21800,
+              "confidence": 0.9669083
+            },
+            {
+              "word": "can",
+              "offset": "PT22.24S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 222400000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 22240,
+              "confidence": 0.8965946
+            },
+            {
+              "word": "diarize",
+              "offset": "PT22.44S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 224400000.0,
+              "durationInTicks": 6000000.0,
+              "durationMilliseconds": 600,
+              "offsetMilliseconds": 22440,
+              "confidence": 0.7382891
+            },
+            {
+              "word": "in",
+              "offset": "PT23.04S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 230400000.0,
+              "durationInTicks": 1200000.0,
+              "durationMilliseconds": 120,
+              "offsetMilliseconds": 23040,
+              "confidence": 0.96248776
+            },
+            {
+              "word": "real",
+              "offset": "PT23.16S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 231600000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 23160,
+              "confidence": 0.9661637
+            },
+            {
+              "word": "time",
+              "offset": "PT23.36S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 233600000.0,
+              "durationInTicks": 4400000.0,
+              "durationMilliseconds": 440,
+              "offsetMilliseconds": 23360,
+              "confidence": 0.90216404
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 1,
+      "offset": "PT24.68S",
+      "duration": "PT0.92S",
+      "offsetInTicks": 246800000.0,
+      "durationInTicks": 9200000.0,
+      "durationMilliseconds": 920,
+      "offsetMilliseconds": 24680,
+      "nBest": [
+        {
+          "confidence": 0.95747304,
+          "lexical": "absolutely",
+          "itn": "absolutely",
+          "maskedITN": "Absolutely.",
+          "display": "Absolutely.",
+          "words": [
+            {
+              "word": "absolutely",
+              "offset": "PT24.68S",
+              "duration": "PT0.92S",
+              "offsetInTicks": 246800000.0,
+              "durationInTicks": 9200000.0,
+              "durationMilliseconds": 920,
+              "offsetMilliseconds": 24680,
+              "confidence": 0.95747304
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT26.44S",
+      "duration": "PT0.92S",
+      "offsetInTicks": 264400000.0,
+      "durationInTicks": 9200000.0,
+      "durationMilliseconds": 920,
+      "offsetMilliseconds": 26440,
+      "nBest": [
+        {
+          "confidence": 0.9608513,
+          "lexical": "that's exciting",
+          "itn": "that's exciting",
+          "maskedITN": "That's exciting",
+          "display": "That's exciting.",
+          "words": [
+            {
+              "word": "that's",
+              "offset": "PT26.44S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 264400000.0,
+              "durationInTicks": 2400000.0,
+              "durationMilliseconds": 240,
+              "offsetMilliseconds": 26440,
+              "confidence": 0.9755348
+            },
+            {
+              "word": "exciting",
+              "offset": "PT26.68S",
+              "duration": "PT0.68S",
+              "offsetInTicks": 266800000.0,
+              "durationInTicks": 6800000.0,
+              "durationMilliseconds": 680,
+              "offsetMilliseconds": 26680,
+              "confidence": 0.94616777
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT27.44S",
+      "duration": "PT1.2S",
+      "offsetInTicks": 274400000.0,
+      "durationInTicks": 12000000.0,
+      "durationMilliseconds": 1200,
+      "offsetMilliseconds": 27440,
+      "nBest": [
+        {
+          "confidence": 0.97153515,
+          "lexical": "let me try it right now",
+          "itn": "let me try it right now",
+          "maskedITN": "Let me try it right now",
+          "display": "Let me try it right now.",
+          "words": [
+            {
+              "word": "let",
+              "offset": "PT27.44S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 274400000.0,
+              "durationInTicks": 1600000.0,
+              "durationMilliseconds": 160,
+              "offsetMilliseconds": 27440,
+              "confidence": 0.9760995
+            },
+            {
+              "word": "me",
+              "offset": "PT27.6S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 276000000.0,
+              "durationInTicks": 1600000.0,
+              "durationMilliseconds": 160,
+              "offsetMilliseconds": 27600,
+              "confidence": 0.9703444
+            },
+            {
+              "word": "try",
+              "offset": "PT27.76S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 277600000.0,
+              "durationInTicks": 2400000.0,
+              "durationMilliseconds": 240,
+              "offsetMilliseconds": 27760,
+              "confidence": 0.96900684
+            },
+            {
+              "word": "it",
+              "offset": "PT28S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 280000000.0,
+              "durationInTicks": 1200000.0,
+              "durationMilliseconds": 120,
+              "offsetMilliseconds": 28000,
+              "confidence": 0.95269156
+            },
+            {
+              "word": "right",
+              "offset": "PT28.12S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 281200000.0,
+              "durationInTicks": 2000000.0,
+              "durationMilliseconds": 200,
+              "offsetMilliseconds": 28120,
+              "confidence": 0.98065776
+            },
+            {
+              "word": "now",
+              "offset": "PT28.32S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 283200000.0,
+              "durationInTicks": 3200000.0,
+              "durationMilliseconds": 320,
+              "offsetMilliseconds": 28320,
+              "confidence": 0.9804109
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
