@@ -5,7 +5,7 @@ SPEECH_TO_TEXT_ENDPOINT=
 
 # Azure Storage Configuration
 AZURE_STORAGE_CONNECTION_STRING=your_connection_string_here
-AZURE_STORAGE_ACCOUNT_NAME=etisalatingestionstorage
+AZURE_STORAGE_ACCOUNT_NAME=nameofstorageaccount
 AZURE_STORAGE_SAS_TOKEN=your_sas_token_here
 AZURE_STORAGE_KEY=your_storage_key_here
 
