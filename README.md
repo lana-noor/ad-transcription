@@ -109,7 +109,7 @@ Now that your environment is set up, you can run the transcription and PDF conve
 
 ### Step 1: Transcribe Audio Files
 
-Run the batch transcription script to process all `.wav` files from the `adic-input-wavfiles` container:
+Run the batch transcription script to process all `.wav` files from the `input-wavfiles` container:
 
 ```powershell
 python batch_transcription.py
@@ -139,19 +139,14 @@ This script will:
    - Speaker-labeled transcription
    - Timestamps for each speaker segment
 4. Save PDFs to `outputPDF/` locally
-5. Upload PDFs to the `adic-transcription-pdf` blob container
+5. Upload PDFs to the `transcription-pdf` blob container
 
 ## Configuration
 
 ### Azure Blob Storage Containers
 
-- **Input**: `adic-input-wavfiles` - Upload your `.wav` files here
-- **Output**: `adic-transcription-pdf` - PDFs are automatically uploaded here
-
-### Local Folders
-
-- **Raw Transcriptions**: `C:\Users\lananoor\OneDrive - Microsoft\ADIC\TranscriptionCode\outputRawTranscription`
-- **PDF Output**: `C:\Users\lananoor\OneDrive - Microsoft\ADIC\TranscriptionCode\outputPDF`
+- **Input**: `input-wavfiles` - Upload your `.wav` files here
+- **Output**: `transcription-pdf` - PDFs are automatically uploaded here
 
 ### Speech Service Settings
 
