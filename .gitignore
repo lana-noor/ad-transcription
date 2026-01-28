@@ -1,0 +1,229 @@
+# ===================================
+# SENSITIVE DATA - NEVER COMMIT THESE
+# ===================================
+
+# Environment variables (contains Azure credentials and keys)
+.env
+.env.local
+.env.*.local
+
+# Azure credentials
+*.publishsettings
+*.azurePubxml
+
+# ===================================
+# PYTHON
+# ===================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ===================================
+# VIRTUAL ENVIRONMENTS
+# ===================================
+
+venv/
+ENV/
+env/
+.venv
+.virtualenv
+env.bak/
+venv.bak/
+
+# ===================================
+# IDE & EDITORS
+# ===================================
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ===================================
+# OUTPUT FILES (OPTIONAL)
+# ===================================
+
+# Uncomment these lines if you don't want to track output files
+# Raw transcription JSON files
+outputRawTranscription/*.json
+
+# Generated PDF files
+outputPDF/*.pdf
+
+# Keep the directories but ignore contents
+!outputRawTranscription/.gitkeep
+!outputPDF/.gitkeep
+
+# ===================================
+# OPERATING SYSTEM
+# ===================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===================================
+# LOGS & TEMPORARY FILES
+# ===================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# ===================================
+# AZURE SPECIFIC
+# ===================================
+
+# Azure Functions
+local.settings.json
+__blobstorage__/
+__queuestorage__/
+__azurite_db*__.json
+
+# ===================================
+# MISC
+# ===================================
+
+# Backup files
+*.backup
+*.old
+
+# Compressed files (if you generate any)
+*.zip
+*.tar.gz
+*.rar
+

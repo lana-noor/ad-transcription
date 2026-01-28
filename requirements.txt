@@ -1,0 +1,13 @@
+# Azure SDK for Python
+azure-storage-blob==12.19.0
+azure-cognitiveservices-speech==1.35.0
+
+# HTTP requests
+requests==2.31.0
+
+# PDF generation
+reportlab==4.0.9
+
+# Environment variables
+python-dotenv==1.0.0
+
